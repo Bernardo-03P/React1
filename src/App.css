@@ -1,0 +1,76 @@
+.logo img {
+
+	height: 100px;
+}
+
+.menu {
+
+	font-weight: 600 !important;
+	text-transform: uppercase;
+	padding: 0 20px !important;
+	border-left: 1px solid #666 !important;
+	font-size: 20px !important;
+}
+
+.menu:first-child {
+
+	border-left: none !important;
+}
+
+.menu a {
+
+	color: #666;
+	text-decoration: none;
+}
+
+.menu a:hover {
+
+	opacity: 0.7;
+}
+
+.carrosel{
+	width: 100%;
+	object-fit: cover;   
+	height: 70vh;
+  }
+
+.servico img{
+	height: 250px;
+	width: 400px;
+	}
+
+.servico h3{
+	background-color: black;
+	color: white;
+	width: 400px;
+	text-align: center;
+	}
+.bemvindo {
+	background-color: #666;
+	height: 100px;
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+}
+.Cliente {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	padding: 90px;
+}
+.delivery{
+	background-color: #BED403;
+	display: flex;
+	flex-direction: row;
+	margin: 10px 60px 20px 60px;
+   
+   }
+   .textodelivery{
+	   width: 55%;
+	   display: flex;
+	   flex-direction: column;
+	   justify-content: center;
+	   text-align: center;
+   
+   }
+
